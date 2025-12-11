@@ -1,10 +1,15 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "Notion ToDo",
+  "description": "A small extension that let's you create and manage todo tasks in Notion",
+  "version": "0.0.1",
+  "icons": {
+    "16": "assets/img/icon.png",
+    "32": "assets/img/icon.png",
+    "48": "assets/img/icon.png",
+    "128": "assets/img/icon.png"
+  },
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "icon.png"
+    "default_popup": "todo.html"
   }
 }
