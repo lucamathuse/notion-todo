@@ -26,9 +26,36 @@ body {
     gap: 1rem;
 }
 
-.todo-controls button {
+button {
     background-color: transparent;
     border: none;
+}
+
+.todo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.todo-content .new-task {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    width: fit-content;
+    color: white;
+    margin-top: 0.5rem
+}
+
+.todo-task {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
 }
 
 /* FONTS */
